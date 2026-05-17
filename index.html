@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's For Dinner</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mediaquery.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="d-flex py-3 px-4 justify-content-between align-items-center">
+            <div class="ps-0 d-flex">
+                <div class="head-icon rounded-circle d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-utensils"></i>
+                </div>
+                <div class="head-titel">
+                    <h1 class="m-0 fw-bold fs-4">What's For Dinner</h1>
+                    <p class="m-0">Your daily meal inspiration</p>
+                </div>
+            </div>
+            <div class="right-div d-flex align-items-center">
+                <i class="fa-solid fa-bookmark"></i>
+                <i class="fa-solid fa-clock-rotate-left"></i>
+                <i class="fa-solid fa-gear"></i>
+                <img src="imgs/imgi_1_avatar-4.jpg" alt="">
+            </div>
+        </div>
+    </header>
+    <section id="home">
+        <div class="main-div">
+            <div class="d-grid grid-div">
+                <div class="div1 position-relative">
+                    <img id="img" src="imgs/imgi_2_photo-1568901346375-23c9450c58cd.jfif" alt="...">
+                    <div class="position-absolute sm-div">
+                        <div class="d-flex align-items-center">
+                            <i class="fa-solid fa-star me-2"></i>
+                            <span id="ratingsAverage" class="me-2 fw-semibold">4.6</span>
+                            <p class="m-0 p">(<span id="ratingsQuantity">421</span> reviews)</p>
+                        </div>
+                    </div>
+                    <div class="lg-div position-absolute">
+                        <div class="d-flex text-center gap-4">
+                            <div class="div1">
+                                <i class="fa-solid fa-clock"></i>
+                                <p class="m-0 p">Prep Time</p>
+                                <span class="fw-bold">15 min</span>
+                            </div>
+                            <div class="div1">
+                                <i class="fa-solid fa-clock"></i>
+                                <p class="m-0 p">Prep Time</p>
+                                <span class="fw-bold">15 min</span>
+                            </div>
+                            <div class="div1">
+                                <i class="fa-solid fa-clock"></i>
+                                <p class="m-0 p">Prep Time</p>
+                                <span class="fw-bold">15 min</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div2 overflow-x-hidden overflow-y-auto h-100">
+                    <div class="div1 mb-5">
+                        <div class="d-flex top">
+                            <div id="difficulty" class="top1">Easy</div>
+                            <div id="category" class="top2">American</div>
+                        </div>
+                        <h2 class="fw-bold fs-2" id="name">Classic Beef Burger</h2>
+                        <p id="description">Juicy homemade burger with all the fixings</p>
+                    </div>
+                    <div class="d-flex justify-content-between position-relative sec2">
+                        <div class="position-absolute lien-div"></div>
+                        <div class="drop1">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-list-check me-1"></i>
+                                <span class="fw-semibold">Ingredients</span>
+                            </a>
+                            <div class="dropdown-menu mt-5 show overflow-auto w-100 border-0">
+                                <div id="ingredients" class="m-0 p-4">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="drop2">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-book-open"></i>
+                                <span class="fw-semibold">Instructions</span>
+                            </a>
+                            <div class="dropdown-menu mt-5 overflow-auto w-100 border-0">
+                                <div class="h" id="instructions">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="drop3">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-chart-pie"></i>
+                                <span class="fw-semibold">Nutrition</span>
+                            </a>
+                            <div class="dropdown-menu mt-5 overflow-auto w-100 border-0">
+                                <div>
+                                    <div class="line d-flex h-100 gap-3 mb-3">
+                                        <div
+                                            class="rectangle rectangle1 p-3 w-50 d-flex justify-content-between align-items-center">
+                                            <div class="d-flex align-items-center">
+                                                <div
+                                                    class="subdiv subdiv1 d-flex justify-content-center align-items-center">
+                                                    <i class="fa-solid fa-fire"></i>
+                                                </div>
+                                                <span>Calories</span>
+                                            </div>
+                                            <h3 id="calories">650 kcal</h3>
+                                        </div>
+                                        <div
+                                            class="rectangle rectangle2 p-3 w-50 d-flex justify-content-between align-items-center">
+                                            <div class="d-flex align-items-center">
+                                                <div
+                                                    class="subdiv subdiv2 d-flex justify-content-center align-items-center">
+                                                    <i class="fa-solid fa-dumbbell"></i>
+                                                </div>
+                                                <span>Protein</span>
+                                            </div>
+                                            <h3 id="protein">38g</h3>
+                                        </div>
+                                    </div>
+                                    <div class="line d-flex h-100 gap-3 mb-3">
+                                        <div
+                                            class="rectangle rectangle3 p-3 w-50 d-flex justify-content-between align-items-center">
+                                            <div class="d-flex align-items-center">
+                                                <div
+                                                    class="subdiv subdiv3 d-flex justify-content-center align-items-center">
+                                                    <i class="fa-solid fa-wheat-awn"></i>
+                                                </div>
+                                                <span>Carbohydrates</span>
+                                            </div>
+                                            <h3 id="carbs">42g</h3>
+                                        </div>
+                                        <div
+                                            class="rectangle rectangle4 p-3 w-50 d-flex justify-content-between align-items-center">
+                                            <div class="d-flex align-items-center">
+                                                <div
+                                                    class="subdiv subdiv4 d-flex justify-content-center align-items-center">
+                                                    <i class="fa-solid fa-droplet"></i>
+                                                </div>
+                                                <span>Fat</span>
+                                            </div>
+                                            <h3 id="fat">35g</h3>
+                                        </div>
+                                    </div>
+                                    <div class="line d-flex h-100 gap-3">
+                                        <div
+                                            class="rectangle rectangle5 p-3 w-50 d-flex justify-content-between align-items-center">
+                                            <div class="d-flex align-items-center">
+                                                <div
+                                                    class="subdiv subdiv5 d-flex justify-content-center align-items-center">
+                                                    <i class="fa-solid fa-seedling"></i>
+                                                </div>
+                                                <span>Fiber</span>
+                                            </div>
+                                            <h3 id="fiber">2g</h3>
+                                        </div>
+                                        <div
+                                            class="rectangle rectangle6 p-3 w-50 d-flex justify-content-between align-items-center">
+                                            <div class="d-flex align-items-center">
+                                                <div
+                                                    class="subdiv subdiv6 d-flex justify-content-center align-items-center">
+                                                    <i class="fa-solid fa-cube"></i>
+                                                </div>
+                                                <span>Sodium</span>
+                                            </div>
+                                            <h3 id="sodium">920mg</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="drop4">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-lightbulb"></i>
+                                <span class="fw-semibold">Chef's Tips</span>
+                            </a>
+                            <div class="dropdown-menu mt-5 overflow-auto w-100 border-0">
+                                <div id="tips">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn border-top w-100 text-start rounded-0">
+                        <button onclick="reload();" class="border-0">
+                            <i class="fa-solid fa-rotate me-2"></i>
+                            Try Another Recipe
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
